@@ -1,4 +1,4 @@
-const dados = require("./dados.json");
+const dados = require("./customers.json");
 
 const sexCount = (data, report) => {
   for (let i = 0; i < data["guests"].length; i++) {

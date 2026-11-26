@@ -1,5 +1,5 @@
 const data = require("./data.json");
-const random = require("./07-sort");
+const random = require("./07-sort-array");
 
 const arrayNumbers = random(10);
 

@@ -1,4 +1,4 @@
-const menu = require("./menu");
+const menu = require("./menu-data");
 
 const getMcInfo = (data) => {
   const report = {
@@ -28,3 +28,5 @@ const getMcInfo = (data) => {
   }
   return report;
 };
+
+module.exports = getMcInfo;

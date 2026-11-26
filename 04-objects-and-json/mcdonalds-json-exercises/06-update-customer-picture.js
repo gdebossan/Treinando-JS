@@ -1,4 +1,4 @@
-const dados = require("./dados.json");
+const dados = require("./customers.json");
 
 const changePicture = (data, link) => {
   const elementosAlterados = [];

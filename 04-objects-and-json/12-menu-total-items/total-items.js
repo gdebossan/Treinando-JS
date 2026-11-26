@@ -1,5 +1,5 @@
-const menu = require("./menu");
-const getMcInfo = require("./relatorio");
+const menu = require("./menu-data");
+const getMcInfo = require("./menu-report");
 
 const totalItens = (data) => {
   const items = getMcInfo(data);

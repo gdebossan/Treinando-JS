@@ -1,4 +1,4 @@
-const menu = require("./menu");
+const menu = require("./menu-data");
 
 const addNewItem = (data, category, item, price, ingredients, calories) => {
   for (let i = 0; i < data[category].length; i++) {

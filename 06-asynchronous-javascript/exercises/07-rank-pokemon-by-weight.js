@@ -3,6 +3,10 @@ const getPokemons = async () => {
     "https://pokeapi.co/api/v2/pokemon/?limit=10000",
   );
 
+  if (!response.ok) {
+    throw new Error(`Falha ao listar Pokémon (HTTP ${response.status})`);
+  }
+
   const data = await response.json();
   const promises = data.results.map(({ url }) => getPokemonDetails(url));
 
@@ -11,6 +15,13 @@ const getPokemons = async () => {
 
 const getPokemonDetails = async (url) => {
   const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error(
+      `Falha ao buscar detalhes do Pokémon (HTTP ${response.status})`,
+    );
+  }
+
   const pokemon = await response.json();
 
   return {
@@ -31,4 +42,7 @@ const top5Heaviest = async () => {
   });
 };
 
-top5Heaviest();
+top5Heaviest().catch((error) => {
+  console.error("Erro ao montar o ranking:", error);
+  process.exitCode = 1;
+});

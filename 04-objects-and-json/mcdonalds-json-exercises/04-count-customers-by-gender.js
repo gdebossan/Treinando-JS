@@ -1,4 +1,4 @@
-const dados = require("./dados.json");
+const dados = require("./customers.json");
 
 const counterGender = (data) => {
   const totalGender = {

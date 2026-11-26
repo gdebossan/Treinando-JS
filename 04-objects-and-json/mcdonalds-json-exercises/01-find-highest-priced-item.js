@@ -1,4 +1,4 @@
-const menu = require("./menu");
+const menu = require("./menu-data");
 
 const moreExpensive = (data, category) => {
   const products = data[category];

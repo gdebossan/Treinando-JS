@@ -1,4 +1,4 @@
-const menu = require("../010/menu");
+const menu = require("../10-menu-item-names/menu-data");
 
 const checkItem = (data, category, item) => {
   for (let i = 0; i < data[category].length; i += 1) {
