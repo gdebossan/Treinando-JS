@@ -1,22 +1,3 @@
 {
-  "name": "javascript-fundamentals",
-  "version": "1.0.0",
-  "private": true,
-  "description": "JavaScript fundamentals, problem-solving, data manipulation and API integration.",
-  "type": "module",
-  "engines": {
-    "node": ">=22"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gdebossan/javascript-fundamentals.git"
-  },
-  "keywords": [
-    "javascript",
-    "nodejs",
-    "problem-solving",
-    "functional-programming",
-    "api-integration"
-  ],
-  "author": "Gabriel Debossan"
+  "type": "module"
 }

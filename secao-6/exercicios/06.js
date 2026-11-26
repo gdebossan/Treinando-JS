@@ -1,8 +1,12 @@
 const filterByType = async (type) => {
   const response = await fetch(`https://pokeapi.co/api/v2/type/${type}/`);
 
+  if (response.status === 404) {
+    return "Tipo não encontrado!";
+  }
+
   if (!response.ok) {
-    return "Tipo nao encontrado!";
+    throw new Error(`Falha ao buscar tipo (HTTP ${response.status})`);
   }
 
   const data = await response.json();
@@ -12,5 +16,9 @@ const filterByType = async (type) => {
   return pokemon.join(", ");
 };
 
-console.log(await filterByType("poison"));
-// console.log(await filterByType(10));
+filterByType("poison")
+  .then((pokemon) => console.log(pokemon))
+  .catch((error) => {
+    console.error("Erro ao consultar tipo:", error);
+    process.exitCode = 1;
+  });
