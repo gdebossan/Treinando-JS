@@ -19,13 +19,14 @@ Repositório dedicado à consolidação dos fundamentos de JavaScript por meio d
 | 03    | Funções e desafios de lógica                  | Concluído |
 | 04    | Objetos e JSON                                | Concluído |
 | 05    | Higher-Order Functions e manipulação de dados | Concluído |
-| 06    | JavaScript assíncrono e integração com APIs   | Pendente  |
+| 06    | JavaScript assíncrono e integração com APIs   | Concluído |
 
 ## Exercícios em destaque
 
 - [Ranking das casas](./secao-3/bruxao-de-funcao/09.js)
 - [Carta com maior ATK por tipo](./secao-5/exercicios/010.js)
 - [Ranking dos três tipos com maior ATK total](./secao-5/exercicios/011-bonus.js)
+- [Pokémon mais pesados](./secao-6/exercicios/07.js)
 
 ## Tecnologias
 
@@ -35,7 +36,8 @@ Repositório dedicado à consolidação dos fundamentos de JavaScript por meio d
 
 ## Como executar
 
-É necessário ter o Node.js instalado.
+É necessário ter o Node.js 22 ou superior. As seções 1 a 5 usam CommonJS,
+enquanto a seção 6 usa ES Modules.
 
 Clone o repositório:
 

@@ -1,21 +1,22 @@
 {
-  "name": "curso-javascript---gus",
+  "name": "javascript-fundamentals",
   "version": "1.0.0",
-  "description": "Repositório dedicado à consolidação dos fundamentos de JavaScript por meio de exercícios práticos, desafios de lógica e manipulação de dados.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "description": "JavaScript fundamentals, problem-solving, data manipulation and API integration.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gdebossan/Curso-JavaScript---Gus.git"
+    "url": "git+https://github.com/gdebossan/javascript-fundamentals.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/gdebossan/Curso-JavaScript---Gus/issues"
-  },
-  "homepage": "https://github.com/gdebossan/Curso-JavaScript---Gus#readme"
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "problem-solving",
+    "functional-programming",
+    "api-integration"
+  ],
+  "author": "Gabriel Debossan"
 }
