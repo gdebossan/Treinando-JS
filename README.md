@@ -1,6 +1,23 @@
 # JavaScript Fundamentals
 
+![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
+![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)
+![Status: Completed](https://img.shields.io/badge/Status-Completed-2ea44f)
+
 Repositório dedicado à consolidação dos fundamentos de JavaScript por meio de exercícios práticos, desafios de lógica e manipulação de dados.
+
+**6/6** Seções concluídas
+
+<progress value="6" max="6">6/6</progress>
+
+## Conteúdos abordados
+
+- ✅ Fundamentos de JavaScript
+- ✅ Arrays e loops
+- ✅ Funções
+- ✅ Objetos e JSON
+- ✅ Higher-Order Functions
+- ✅ JavaScript assíncrono e APIs
 
 ## Objetivos
 
@@ -10,23 +27,12 @@ Repositório dedicado à consolidação dos fundamentos de JavaScript por meio d
 - Desenvolver soluções claras, legíveis e eficientes.
 - Trabalhar com operações assíncronas e integração com APIs.
 
-## Conteúdos
-
-| Seção | Conteúdo                                      | Status    |
-| ----- | --------------------------------------------- | --------- |
-| 01    | Variáveis, operadores e condicionais          | Concluído |
-| 02    | Arrays e estruturas de repetição              | Concluído |
-| 03    | Funções e desafios de lógica                  | Concluído |
-| 04    | Objetos e JSON                                | Concluído |
-| 05    | Higher-Order Functions e manipulação de dados | Concluído |
-| 06    | JavaScript assíncrono e integração com APIs   | Concluído |
-
 ## Exercícios em destaque
 
-- [Ranking das casas](./secao-3/bruxao-de-funcao/09.js)
-- [Carta com maior ATK por tipo](./secao-5/exercicios/010.js)
-- [Ranking dos três tipos com maior ATK total](./secao-5/exercicios/011-bonus.js)
-- [Pokémon mais pesados](./secao-6/exercicios/07.js)
+- [Ranking das casas](./03-functions/function-challenges/09-rank-houses.js)
+- [Carta com maior ATK por tipo](./05-higher-order-functions/exercises/10-highest-attack-by-type.js)
+- [Ranking dos três tipos com maior ATK total](./05-higher-order-functions/exercises/11-rank-types-by-attack-bonus.js)
+- [Pokémon mais pesados](./06-asynchronous-javascript/exercises/07-rank-pokemon-by-weight.js)
 
 ## Tecnologias
 
@@ -49,7 +55,7 @@ cd javascript-fundamentals
 Execute o exercício desejado:
 
 ```bash
-node secao-5/exercicios/011-bonus.js
+node 05-higher-order-functions/exercises/11-rank-types-by-attack-bonus.js
 ```
 
 ## Referência
