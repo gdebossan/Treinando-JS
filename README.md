@@ -6,18 +6,16 @@
 
 Repositório dedicado à consolidação dos fundamentos de JavaScript por meio de exercícios práticos, desafios de lógica e manipulação de dados.
 
-**6/6** Seções concluídas
-
-<progress value="6" max="6">6/6</progress>
+**Progresso: 6/6 seções concluídas (100%)**
 
 ## Conteúdos abordados
 
-- ✅ Fundamentos de JavaScript
-- ✅ Arrays e loops
-- ✅ Funções
-- ✅ Objetos e JSON
-- ✅ Higher-Order Functions
-- ✅ JavaScript assíncrono e APIs
+- ✅ [Fundamentos de JavaScript](./01-fundamentals/)
+- ✅ [Arrays e loops](./02-arrays-and-loops/)
+- ✅ [Funções](./03-functions/)
+- ✅ [Objetos e JSON](./04-objects-and-json/)
+- ✅ [Higher-Order Functions](./05-higher-order-functions/)
+- ✅ [JavaScript assíncrono e APIs](./06-asynchronous-javascript/)
 
 ## Objetivos
 
@@ -29,10 +27,14 @@ Repositório dedicado à consolidação dos fundamentos de JavaScript por meio d
 
 ## Exercícios em destaque
 
-- [Ranking das casas](./03-functions/function-challenges/09-rank-houses.js)
-- [Carta com maior ATK por tipo](./05-higher-order-functions/exercises/10-highest-attack-by-type.js)
-- [Ranking dos três tipos com maior ATK total](./05-higher-order-functions/exercises/11-rank-types-by-attack-bonus.js)
-- [Pokémon mais pesados](./06-asynchronous-javascript/exercises/07-rank-pokemon-by-weight.js)
+| Exercício | Competências demonstradas |
+| --- | --- |
+| [Ranking dos tipos por ATK](./05-higher-order-functions/exercises/11-rank-types-by-attack-bonus.js) | Agregação e transformação de dados |
+| [Maior ATK por tipo](./05-higher-order-functions/exercises/10-highest-attack-by-type.js) | Agrupamento e redução |
+| [Resumo de clientes](./04-objects-and-json/mcdonalds-json-exercises/08-customer-summary.js) | Processamento de dados e relatórios |
+| [Ranking de Pokémon](./06-asynchronous-javascript/exercises/07-rank-pokemon-by-weight.js) | Integração com APIs e concorrência |
+| [Agrupamento de Pokémon por tipo](./06-asynchronous-javascript/exercises/08-group-pokemon-by-type.js) | Assincronismo e estruturas de dados |
+| [Busca de múltiplos Pokémon](./06-asynchronous-javascript/exercises/05-fetch-multiple-pokemon.js) | Promises e tratamento de falhas |
 
 ## Tecnologias
 
