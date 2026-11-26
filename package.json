@@ -1,0 +1,21 @@
+{
+  "name": "curso-javascript---gus",
+  "version": "1.0.0",
+  "description": "Repositório dedicado à consolidação dos fundamentos de JavaScript por meio de exercícios práticos, desafios de lógica e manipulação de dados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdebossan/Curso-JavaScript---Gus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gdebossan/Curso-JavaScript---Gus/issues"
+  },
+  "homepage": "https://github.com/gdebossan/Curso-JavaScript---Gus#readme"
+}
